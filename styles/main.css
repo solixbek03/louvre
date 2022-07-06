@@ -453,7 +453,7 @@ body {
 .hero {
   background-color: #030303;
   padding-top: 150px;
-  padding-bottom: 70px;
+  padding-bottom: 190px;
 }
 
 .hero-inner {
@@ -1109,4 +1109,188 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-image: url("../../images/louvre-bg.png");
+}
+
+.map__inner {
+  margin-top: 75px;
+  margin-bottom: 74px;
+}
+
+.map__title {
+  margin: 0;
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #9d8665;
+}
+
+.map__hr {
+  margin: 0;
+  height: 3px;
+  background-color: #710707;
+  margin-bottom: 75px;
+}
+
+.map__inner-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.map__inner-content-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.map__inner-content-box-title {
+  width: 227px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.map__inner-content-box-link {
+  margin-bottom: 25px;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.map__inner-content-link-img {
+  width: 960px;
+  height: 620px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .map__inner-content-link-img {
+    width: 694px;
+    height: 454px;
+  }
+}
+@media only screen and (max-width: 1020px) {
+  .map__inner-content {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 940px) {
+  .map__title {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 715px) {
+  .map__inner-content-link-img {
+    width: 580px;
+    height: 348px;
+  }
+}
+@media only screen and (max-width: 615px) {
+  .map__inner-content-link-img {
+    width: 480px;
+    height: 298px;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .map__title {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+@media only screen and (max-width: 515px) {
+  .map__inner-content-link-img {
+    width: 380px;
+    height: 248px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .map__inner-content-link-img {
+    width: 280px;
+    height: 208px;
+  }
+}
+.footer {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: black;
+}
+
+.footer__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__list-box {
+  display: flex;
+}
+
+.footer__list {
+  list-style-type: none;
+  margin-left: 30px;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.footer__link:hover {
+  color: skyblue;
+}
+
+.footer__line {
+  color: white;
+}
+
+.footer__text-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__text {
+  color: white;
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+@media only screen and (max-width: 835px) {
+  .footer__box {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .footer__list-box {
+    flex-direction: column;
+  }
+
+  .footer__list {
+    display: flex;
+  }
+
+  .footer__link {
+    margin-right: 35px;
+  }
+
+  .footer__text-box {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .footer__link {
+    margin-right: 15px;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 19px;
+  }
 }/*# sourceMappingURL=main.css.map */
